@@ -1,0 +1,28 @@
+{
+	"name": "urn-core-dep",
+	"version": "0.0.1",
+	"description": "Uranio core dependencies",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc -b"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@bitbucket.org/nbl7/urn-core-dep.git"
+	},
+	"keywords": [
+		"uranio",
+		"urn"
+	],
+	"author": "Andrea Reni <mail@nbl7.net>",
+	"license": "ISC",
+	"homepage": "https://bitbucket.org/nbl7/urn-core-dep#readme",
+	"devDependencies": {},
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.11.11",
+		"urn-lib": "git+ssh://git@bitbucket.org/nbl7/urn-lib.git"
+	}
+}
