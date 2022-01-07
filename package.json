@@ -26,6 +26,7 @@
 		"jsonwebtoken": "^8.5.1",
 		"module-alias": "^2.2.2",
 		"mongoose": "^5.11.15",
+		"saslprep": "^1.0.3",
 		"urn-lib": "git+ssh://git@github.com/nbl7/uranio-lib.git"
 	}
 }
